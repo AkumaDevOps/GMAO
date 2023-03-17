@@ -6,6 +6,9 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GMAOAPI", "GMAOAPI\GMAOAPI.csproj", "{1BA2E6A8-5882-411F-85C8-8FDEBB486ACA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GMAOClientMAUI", "GMAOClientMAUI\GMAOClientMAUI.csproj", "{319E26DF-58CB-4E72-91C0-37985725A77F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1BA2E6A8-5882-411F-85C8-8FDEBB486ACA} = {1BA2E6A8-5882-411F-85C8-8FDEBB486ACA}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
